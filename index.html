@@ -38,8 +38,8 @@
         var leftNumbers = dodger.style.left.replace('px', '')
         var left = parseInt(leftNumbers, 10)
   
-        if (left < 400) {
-          dodger.style.left = `${left + 1}px`
+        if (left < 350) {
+          dodger.style.left = `${left + 10}px`
         }
       }
       document.addEventListener('keydown', function(e) {
